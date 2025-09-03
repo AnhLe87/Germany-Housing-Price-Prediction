@@ -19,7 +19,7 @@ The dataset contains different types of features:
   `['state', 'typeOfFlat', 'heatingType', 'condition']`
 
 - **Continuous variables:**  
-  `['noRooms', 'serviceCharge', 'livingSpace', 'floor', 'yearConstructed']`
+  `['noRooms', 'floor', 'yearConstructed']`
 
 - **Target variable:**  
   `price_per_sqm` (rental price per square meter).
@@ -45,11 +45,11 @@ The dataset contains different types of features:
 ---
 
 ## 🧮 Results
-- **Best alpha:** `0.1`  
-- **Best R² (CV):** `0.469`  
-- **Test MSE:** `9.47`  
+- **Best alpha:** `1`  
+- **Best R² (CV):** `0.573`  
+- **Test MSE:** `4.82`  
 
-👉 Ridge Regression with `alpha=0.1` showed stable and balanced performance between training and testing.
+👉 Ridge Regression with `alpha=1` showed stable and balanced performance between training and testing.
 
 ---
 
