@@ -1,4 +1,4 @@
-# Germany-Housing-Price-Prediction
+# Germany-Rental-Price-Prediction
 ## Introduction
 This project aims to build a **predictive model for rental prices (price_per_sqm)** in Germany using housing data.  
 
