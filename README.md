@@ -44,12 +44,12 @@ The dataset contains different types of features:
 
 ---
 
-## 🧮 Results
+## Results
 - **Best alpha:** `1`  
 - **Best R² (CV):** `0.573`  
 - **Test MSE:** `4.82`  
 
-👉 Ridge Regression with `alpha=1` showed stable and balanced performance between training and testing.
+Ridge Regression with `alpha=1` showed stable and balanced performance between training and testing.
 
 ---
 
